@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    background-color: rgba(32,33,36,1);
+    color: white;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+}
+
+#nav {
+    display: flex;
+    align-items:center;
+    height: 48px;
+    font-size: 13px;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#nav > img{
+    width: 74px;
+    height: 24px;
+}
+
+#nav > a:hover{
+    text-decoration: underline;
+}
+
+.h1 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 35px;
+    font-weight: normal;
+}
+
+.form{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 35px;
+    
+}
+
+.fieldh {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.field {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    
+}
+
+.wr {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.field > input {
+    outline:none;
+    border: 1px solid #5f6368;
+    width: 100%;
+    width: 300px;
+    height: 30px;
+}
+
+.rules {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+    padding-left: 10px;
+}
+
+.pr {
+    min-width: 250px;
+}
+
+.f {
+    width: 300px;
+}
+
+.btnholder {
+    display: flex;
+    justify-content: center;
+}
+
+.btnholder {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.as {
+    color: white;
+    display: flex;
+    width: 300px;
+    justify-content: flex-end;
+}
+
+.as > input {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius:2px ;
+    height: 30px !important;
+    width: 120px !important;
+}
+
+.as > input:hover {
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+}

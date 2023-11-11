@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    background-color: rgba(32,33,36,1);
+    color: white;
+    text-decoration: none;
+    font-family: arial,sans-serif;
+}
+
+#nav {
+    display: flex;
+    align-items:center;
+    height: 48px;
+    font-size: 13px;
+    justify-content: flex-end;
+}
+
+#nav > img{
+width: 74px;
+height: 24px;
+}
+
+#nav > a{
+    display: flex;
+    margin-right: 20px;
+}
+
+#nav > a:hover{
+    text-decoration: underline;
+}
+
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.logo {
+    height: 92px;
+    width: 272px;
+    
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form > input {
+    height: 30px;
+    outline:none;
+    width: 582px;
+    height: 46px;
+    color: #bdc1c6;
+    border: 1.25px solid #5f6368;
+    border-radius: 10000px;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+.form > input:hover,:focus {
+    background-color: #303134;
+    border: 1.25px solid rgba(32,33,36,1);
+}
+
+.form > input:-webkit-autofill,
+.form > input:-webkit-autofill:hover, 
+.form > input:-webkit-autofill:focus, 
+.form > input:-webkit-autofill:active{
+    font-size: large;
+    -webkit-text-fill-color: #bdc1c6 ;
+    -webkit-box-shadow: 0 0 0 30px rgba(32,33,36,1) inset ;
+}
+
+.btns > input {
+    background-color: #303134;
+    height: 36px;
+    min-width: 54px;
+    outline:none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border: 1px solid #303134;
+}
+
+.btns > input:hover {
+border: 1px solid #5f6368;
+}
+
+.logoholder {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.imgword {
+    position: absolute;
+    color: #4487f6;
+    right: 1px;
+    bottom: 1px;
+}
+
